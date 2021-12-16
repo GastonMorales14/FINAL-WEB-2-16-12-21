@@ -1,0 +1,12 @@
+4) 
+	A)  Deberiamos agregar:
+	un route-api   Y EN HTACCES AGREGAR LA LINEA DE API;
+	agregar un apiclienteController;
+	una ApiView;
+	
+	B)$router->addRoute('cliente/:ID', 'GET', 'clienteController', 'getDatosPersonales');
+	  $router->addRoute('cliente/:ID', 'PUT', 'clienteController', 'changeDatosPersonales');
+	  $router->addRoute('cliente/:ID', 'GET', 'clienteController', 'getDatosDeMiTarjeta');
+	  $router->addRoute('cliente/:ID', 'GET', 'clienteController', 'getEstadoActualDeMiCuenta');
+	  $router->addRoute('actividad/start=01-01-2021&end=01-31-2021', 'GET', 'actividadesController', 'getActividadesEntreFechas');
+	  $router->addRoute('cliente/:ID', 'DELETE', 'tarjetaController', 'deleteTarjeta');

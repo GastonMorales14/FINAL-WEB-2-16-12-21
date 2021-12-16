@@ -1,0 +1,20 @@
+A) I) Una Api Rest es una arquitectura de desarrollo web que se apoya directamente con el protocolo HTTP que se utilizan para diseñar el software de las aplicaciones.
+La ventaja que tiene es que puede programarse en diferentes lenguajes y facilita su reutilizacion.
+
+   ii) 
+
+
+B) i) Server side rendering: 
+      Es el componente principal de las paginas web dinamicas 
+      En esta arquitectura las aplicacio0nes web funcionan cundo el usuario realiza peticiones a un servidor y este le devuelvo una respuesta dinamica
+      Por ejemplo el cliente le pide un listado de algun producto y el servidor se lo renderiza.
+    
+    ii)HTTP STATUS CODE:
+       Es el protocolo de comunicacion entre el cliente y el servidor, es decir el servidor responde a las peticiones del cliente.
+       Por ejemplo el cliente realiza una peticion por la url y el servidor le renderiza una respuesta.
+    
+     iii)SESIONES DE USUARIO:
+	Es donde se guarda informacion que puede llamarse en cualquier momento mientras la sesion este iniciada
+	Se crea una sesion en el servidor con session_start(); y si ya existe trae la existente, y esta debe llamarse siempre antes de acceder, cambiar o almacenar algun dato.
+	
+	
